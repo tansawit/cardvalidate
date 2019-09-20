@@ -2,6 +2,7 @@ from distutils.core import setup
 
 with open("README.md", "r") as fh:
     long_description = fh.read()
+    print(long_description)
 
 setup(
   name = 'cardvalidate',         # How you named your package folder (MyLib)
@@ -14,7 +15,7 @@ setup(
   author = 'sawit.tr@gmail.com',                   # Type in your name
   author_email = 'sawit.tr@gmail.com',      # Type in your E-Mail
   url = 'https://github.com/tansawit/cardvalidate',   # Provide either the link to your github or to your website
-  download_url = 'https://github.com/tansawit/cardvalidate/archive/0.1.tar.gz',    # I explain this later on
+  download_url = 'https://github.com/tansawit/cardvalidate/archive/0.2.tar.gz',    # I explain this later on
   keywords = ['credit', 'card', 'validator','checker','issuer'],   # Keywords that define your package best
   install_requires=[            # I get to this in a second
           're',
