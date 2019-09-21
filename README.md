@@ -1,5 +1,5 @@
 # Credit Card Validator
-> Python program to identify credit card issuer and validate card number using [Luhn's algorithm](https://en.wikipedia.org/wiki/Luhn_algorithm)
+> Python library to identify credit card issuer and validate card number using [Luhn's algorithm](https://en.wikipedia.org/wiki/Luhn_algorithm)
 
 ## Installation
 This package is available on [PyPI](https://pypi.org/project/cardvalidate/)
